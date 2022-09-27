@@ -1,0 +1,14 @@
+﻿<Window x:Class="KinectToNao.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinectToNao"
+        mc:Ignorable="d"
+        Title="Kinect Receiver" Height="628.947" Width="1055.12">
+    <Grid>
+        <Button x:Name="buttonStart" Content="Start" HorizontalAlignment="Left" Height="39" Margin="738,78,0,0" VerticalAlignment="Top" Width="162" Click="buttonStart_Click"/>
+        <Canvas HorizontalAlignment="Left" Height="453" Margin="48,31,0,0" VerticalAlignment="Top" Width="551"/>
+        <TextBox x:Name="textBoxIPAddress" HorizontalAlignment="Left" Height="42" Margin="637,31,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="263" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+    </Grid>
+</Window>

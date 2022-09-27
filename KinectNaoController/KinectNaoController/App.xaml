@@ -1,0 +1,9 @@
+﻿<Application x:Class="KinectNaoController.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:KinectNaoController"
+             StartupUri="KinectNaoController.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
